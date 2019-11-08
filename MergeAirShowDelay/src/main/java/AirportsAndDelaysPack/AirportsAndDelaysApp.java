@@ -4,6 +4,7 @@ import org.apache.spark.api.java.JavaRDD;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaSparkContext;
+import scala.Tuple2;
 
 
 public class AirportsAndDelaysApp {
@@ -17,7 +18,7 @@ public class AirportsAndDelaysApp {
         JavaRDD<String[]> RddAirports = Airports.filter(str -> !str.startsWith("Code")).map(x -> x.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)"));
         JavaRDD<String[]> RddDelays = Delays.filter(str -> !str.startsWith("\"YEAR\"")).map(x -> x.split(","));
 
-        JavaPairRDD<String, String> IdAndDescrPare = RddAirports.mapToPair(x -> return new Tuple )
+        JavaPairRDD<String, String> IdAndDescrPare = RddAirports.mapToPair(x -> return new Tuple2<> )
     }
 
 }
