@@ -18,7 +18,7 @@ public class AirportsAndDelaysApp {
         JavaRDD<String[]> RddAirports = Airports.filter(str -> !str.startsWith("Code")).map(x -> x.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)"));
         JavaRDD<String[]> RddDelays = Delays.filter(str -> !str.startsWith("\"YEAR\"")).map(x -> x.split(","));
 
-        JavaPairRDD<String, String> IdAndDescrPare = RddAirports.mapToPair(x -> return new Tuple2<> )
+        JavaPairRDD<String, String> IdAndDescrPare = RddAirports.mapToPair(x -> return new Tuple2<>() )
     }
 
 }
