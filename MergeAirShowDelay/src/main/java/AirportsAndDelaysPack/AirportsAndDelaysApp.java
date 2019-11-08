@@ -1,4 +1,5 @@
 package AirportsAndDelaysPack;
+import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
 
 import org.apache.spark.SparkConf;
@@ -15,7 +16,8 @@ public class AirportsAndDelaysApp {
        // String[] data = AirString.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)");
         JavaRDD<String[]> RddAirports = Airports.filter(str -> !str.startsWith("Code")).map(x -> x.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)"));
         JavaRDD<String[]> RddDelays = Delays.filter(str -> !str.startsWith("\"YEAR\"")).map(x -> x.split(","));
-        
+
+        JavaPairRDD<>
     }
 
 }
