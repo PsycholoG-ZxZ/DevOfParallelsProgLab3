@@ -13,7 +13,8 @@ public class AirportsAndDelaysApp {
         JavaRDD<String> Delays = sc.textFile("/home/dmitry/ParallLab3/DevOfParallelsProgLab3/MergeAirShowDelay/BIG.csv");
        // String AirString = Airports.toString();
        // String[] data = AirString.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)");
-        JavaRDD<String[]> RddArr = Airports.filter(str -> !str.startsWith("Code")).map(x -> x.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)"));
+        JavaRDD<String[]> RddAirports = Airports.filter(str -> !str.startsWith("Code")).map(x -> x.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)"));
+        JavaRDD<String[]> RddDelays =
     }
 
 }
