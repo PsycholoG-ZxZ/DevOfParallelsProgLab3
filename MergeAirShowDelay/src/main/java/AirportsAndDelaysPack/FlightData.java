@@ -6,7 +6,4 @@ public class FlightData implements Serializable {
     FlightData(){
 
     }
-    FlightData(){
-
-    }
 }
