@@ -11,7 +11,8 @@ public class AirportsAndDelaysApp {
         JavaSparkContext sc = new JavaSparkContext(conf);
         JavaRDD<String> Airports = sc.textFile("/home/dmitry/ParallLab3/DevOfParallelsProgLab3/MergeAirShowDelay/SMALL.csv");
         JavaRDD<String> Delays = sc.textFile("/home/dmitry/ParallLab3/DevOfParallelsProgLab3/MergeAirShowDelay/BIG.csv");
-        
+        String AirString = Airports.toString();
+        AirString.split()
     }
 
 }
