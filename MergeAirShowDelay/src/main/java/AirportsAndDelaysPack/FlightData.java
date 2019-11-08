@@ -4,9 +4,9 @@ import java.io.Serializable;
 
 public class FlightData implements Serializable {
         public double delay;
-        public int count;
-        public int CanceledKol;
-        public int 
+        public int countAll;
+        public int canceledKol;
+        public int kolFlightWDelay;
     FlightData(){
 
     }
