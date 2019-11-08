@@ -14,7 +14,7 @@ public class AirportsAndDelaysApp {
        // String AirString = Airports.toString();
        // String[] data = AirString.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)");
         JavaRDD<String[]> RddAirports = Airports.filter(str -> !str.startsWith("Code")).map(x -> x.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)"));
-        JavaRDD<String[]> RddDelays =
+        JavaRDD<String[]> RddDelays = Delays.filter()
     }
 
 }
