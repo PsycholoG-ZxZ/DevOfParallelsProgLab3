@@ -4,7 +4,9 @@ import java.io.Serializable;
 
 public class FlightData implements Serializable {
     FlightData(){
-        
+
     }
-    FlightData()
+    FlightData(){
+
+    }
 }
