@@ -1,4 +1,4 @@
 package AirportsAndDelaysPack;
 
-public class FlightData implements Seri {
+public class FlightData implements Seria{
 }
