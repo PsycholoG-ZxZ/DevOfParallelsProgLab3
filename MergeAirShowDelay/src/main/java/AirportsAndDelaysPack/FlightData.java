@@ -1,4 +1,4 @@
 package AirportsAndDelaysPack;
 
-public class FlightData {
+public class FlightData  {
 }
