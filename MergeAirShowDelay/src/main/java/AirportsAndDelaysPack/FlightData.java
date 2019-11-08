@@ -1,4 +1,6 @@
 package AirportsAndDelaysPack;
 
-public class FlightData implements Seria{
+import java.io.Serializable;
+
+public class FlightData implements Serializable {
 }
