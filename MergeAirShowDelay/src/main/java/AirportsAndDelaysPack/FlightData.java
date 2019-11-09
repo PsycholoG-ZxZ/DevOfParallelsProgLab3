@@ -12,5 +12,6 @@ public class FlightData implements Serializable {
         public int kolFlightWDelay;
     FlightData(String FlightStr){
         delay = Integer.parseInt(FlightStr);
+        
     }
 }
