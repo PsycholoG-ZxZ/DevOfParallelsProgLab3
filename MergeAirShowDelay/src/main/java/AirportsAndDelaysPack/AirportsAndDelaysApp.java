@@ -4,6 +4,7 @@ import org.apache.spark.api.java.JavaRDD;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaSparkContext;
+import org.apache.spark.broadcast.Broadcast;
 import scala.Tuple2;
 
 import java.util.Map;
@@ -26,7 +27,7 @@ public class AirportsAndDelaysApp {
         JavaPairRDD<Tuple2<String,String>, FlightData> TupleWithKey = RddDelays.mapToPair(x -> {return new Tuple2<>(new Tuple2<String,String>(x[11], x[14]), new FlightData(new Tuple2<String,String>(x[18], x[19])));});
         Map<String,String> airportMap = IdAndDescrPair.collectAsMap();
 
-        final broadcas
+        final Broadcast
 
 
     }
