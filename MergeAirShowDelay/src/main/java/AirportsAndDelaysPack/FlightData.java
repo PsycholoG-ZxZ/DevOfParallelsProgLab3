@@ -8,7 +8,7 @@ public class FlightData implements Serializable {
         public int canceledKol;
         public int kolFlightWDelay;
     FlightData(String[] FlightStr){
-        delay = FlightStr[]
+        delay = FlightStr[18]
 
     }
 }
