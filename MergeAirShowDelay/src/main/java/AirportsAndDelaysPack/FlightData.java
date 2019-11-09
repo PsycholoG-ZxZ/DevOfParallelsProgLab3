@@ -17,7 +17,7 @@ public class FlightData implements Serializable {
         if (delInfo._2.equals("0")) {
             canceledKol = 0;
             if (delInfo._1 != "") {
-                delay = Integer.parseInt(delInfo._1);
+                delay = Double.parseDouble(delInfo._1);
                 kolFlightWDelay = 1;
 
             }
