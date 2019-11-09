@@ -14,7 +14,7 @@ public class FlightData implements Serializable {
         public int kolFlightWDelay;
     FlightData(Tuple2<String,String> delInfo){
         delay = Integer.parseInt(delInfo._1);
-        if 
+        if (delInfo._2.equals("0"));
 
     }
 }
