@@ -21,7 +21,7 @@ public class AirportsAndDelaysApp {
         JavaPairRDD<String, String> IdAndDescrPare = RddAirports.mapToPair(x -> {return new Tuple2<>(x[0].replace("\"", ""), x[1]); });
         //пара ключ-дескрипшн ключ по виду такой же как и в др табл
 
-        JavaPairRDD<Tuple2<String,String>, FlightData> TupleWithKey = RddDelays.mapToPair(x -> {return new Tuple2<>(x[11], x[14]), newFlightDataTuple2<>})
+        JavaPairRDD<Tuple2<String,String>, FlightData> TupleWithKey = RddDelays.mapToPair(x -> {return new Tuple2<>(x[11], x[14]), newFlightData(Tuple2<>())})
 
 
     }
