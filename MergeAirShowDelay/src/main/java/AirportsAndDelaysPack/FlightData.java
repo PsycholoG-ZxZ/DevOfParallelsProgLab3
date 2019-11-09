@@ -25,7 +25,6 @@ public class FlightData implements Serializable {
             canceledKol = 1;
             delay = 0;
             kolFlightWDelay = 0;
-
         }
     }
 }
