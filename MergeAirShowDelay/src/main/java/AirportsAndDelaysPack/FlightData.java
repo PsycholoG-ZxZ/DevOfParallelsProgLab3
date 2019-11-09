@@ -14,9 +14,13 @@ public class FlightData implements Serializable {
         public int kolFlightWDelay;
     FlightData(Tuple2<String,String> delInfo){
         countAll = 1;
-        delay = Integer.parseInt(delInfo._1);
-        if (delInfo._2.equals("0")){
-            canceledKol = 1;
+        if (delInfo._1 != "") {
+            delay = Integer.parseInt(delInfo._1);
+            if (delInfo._2.equals("0")) {
+                canceledKol = 1;
+            }
+        }else{
+            canceledKol = 0;
         }
 
     }
