@@ -39,7 +39,7 @@ public class FlightData implements Serializable {
     }
 
     public double getPer{
-        
+        return per;
     }
 
 }
