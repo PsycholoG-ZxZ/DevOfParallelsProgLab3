@@ -27,7 +27,7 @@ public class FlightsReduce {
                 )
         ).mapToPair((
                 Tuple2<Tuple2<String,String>,String> tup)-> new Tuple2<>(
-                        
+                        tup.
                 )
         )
 
