@@ -12,7 +12,8 @@ public class FlightData implements Serializable {
         public int countAll;
         public int canceledKol;
         public int kolFlightWDelay;
-        public double per;
+        public double per;public double perCanc;
+
     FlightData(Tuple2<String,String> delInfo) {
         countAll = 1;
         if (delInfo._2.equals("0")) {
@@ -37,8 +38,8 @@ public class FlightData implements Serializable {
             per = (float) kolFlightWDelay * 100 / (float) countAll;
         }else per = 0;
         if(canceledKol != 0){
-            per = (float) kolFlightWDelay * 100 / (float) countAll;
-        }else per = 0;
+            perCanc = (float) canceledKol * 100 / (float) countAll;
+        }else perCanc = 0;
     }
 
     public double getPer(){
