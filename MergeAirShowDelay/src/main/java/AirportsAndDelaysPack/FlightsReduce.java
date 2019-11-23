@@ -25,7 +25,9 @@ public class FlightsReduce {
                 (FlightData frst, FlightData sec)-> new FlightData(
                         Math.max(frst.delay, sec.delay), frst.countAll + sec.countAll, frst.kolFlightWDelay + sec.kolFlightWDelay
                 )
-        ).mapToPair()
+        ).mapToPair(
+                
+        )
 
     }
 }
