@@ -32,6 +32,8 @@ public class FlightData implements Serializable {
         kolFlightWDelay = countAll1;
         countAll = count;
         //canceledKol = countAll;
-        if(kolFlightWDelay != 0)
+        if(kolFlightWDelay != 0){
+            
+        }
     }
 }
