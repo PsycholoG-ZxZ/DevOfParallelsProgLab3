@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="456a21ff-f480-4ac2-bea4-3e5e5e42c0c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6292b4a8-3d80-4d5a-af0f-09b50003ddbe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/MergeAirShowDelay/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MergeAirShowDelay/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,30 +10,12 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1TLsZ0zcZ8PnUXvbMu5H75WCOHP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1TfuH4RLHOE9mzyqAzzhwUsOTe3" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MergeAirShowDelay" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -52,11 +34,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="456a21ff-f480-4ac2-bea4-3e5e5e42c0c6" name="Default Changelist" comment="" />
-      <created>1573250927540</created>
+      <changelist id="6292b4a8-3d80-4d5a-af0f-09b50003ddbe" name="Default Changelist" comment="" />
+      <created>1573863379865</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1573250927540</updated>
+      <updated>1573863379865</updated>
     </task>
     <servers />
   </component>
@@ -65,9 +47,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
