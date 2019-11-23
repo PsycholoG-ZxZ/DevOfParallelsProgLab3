@@ -37,4 +37,9 @@ public class FlightData implements Serializable {
             per = (float) kolFlightWDelay * 100 / (float) countAll;
         }else per = 0;
     }
+
+    public double getPer{
+        
+    }
+
 }
