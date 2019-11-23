@@ -9,8 +9,8 @@ import java.util.Map;
 
 public class FlightsReduce {
     public static JavaPairRDD<Tuple2, Tuple2> FlightsCount (JavaPairRDD<Tuple2<String,String>, FlightData> TupleWithKey,
-                                                            Broadcast<Map<String,String>> AirBroadcast,
-                                                            JavaRDD<String> ExtraFlInfo){
+                                                            Broadcast<Map<String,String>> AirBroadcast
+                                                            ){
         return ExtraFlInfo.mapToPair(
                 (String s) -> {
                     String
