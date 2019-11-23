@@ -23,7 +23,7 @@ public class FlightsReduce {
                 }
         ).reduceByKey(
                 (FlightData frst, FlightData sec)-> new FlightData(
-                        Math.max(frst.delay, sec.delay),
+                        Math.max(frst.delay, sec.delay), 
                 )
         )
 
