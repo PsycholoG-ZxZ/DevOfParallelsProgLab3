@@ -22,7 +22,7 @@ public class FlightsReduce {
                             new FlightData(new Tuple2<String,String> (del.toString(), stat.toString()));
                 }
         ).reduceByKey(
-                (FlightData frst, FlightData sec)->
+                (FlightData frst, FlightData sec)-> new FlightData()
         )
 
     }
