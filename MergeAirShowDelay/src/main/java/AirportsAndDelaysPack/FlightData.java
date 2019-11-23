@@ -27,5 +27,7 @@ public class FlightData implements Serializable {
             kolFlightWDelay = 0;
         }
     }
-    FlightData(double del, int coutn)
+    FlightData(double del, int count, int countAll){
+        
+    }
 }
