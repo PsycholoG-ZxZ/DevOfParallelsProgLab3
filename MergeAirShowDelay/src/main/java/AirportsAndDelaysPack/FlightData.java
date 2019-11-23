@@ -36,6 +36,9 @@ public class FlightData implements Serializable {
         if(kolFlightWDelay != 0){
             per = (float) kolFlightWDelay * 100 / (float) countAll;
         }else per = 0;
+        if(canceledKol != 0){
+            per = (float) kolFlightWDelay * 100 / (float) countAll;
+        }else per = 0;
     }
 
     public double getPer(){
