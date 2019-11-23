@@ -30,7 +30,6 @@ public class AirportsAndDelaysApp {
         final Broadcast<Map<String,String>> AirBroadcast = sc.broadcast(airportMap);
         JavaPairRDD<Tuple2<String,String>>
 
-
     }
 
 }
