@@ -13,7 +13,7 @@ public class FlightsReduce {
                                                             JavaRDD<String> ExtraFlInfo){
         return ExtraFlInfo.mapToPair(
                 (String s) -> {
-                    
+                    String
                 }
         )
 
