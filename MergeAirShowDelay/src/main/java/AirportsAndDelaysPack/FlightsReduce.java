@@ -18,7 +18,7 @@ public class FlightsReduce {
                     Double stat = Double.parseDouble(s[19]);
                     String del = s[18];
                     return new Tuple2<>(new Tuple2<>(
-                            AirBroadcast.getValue().get(airFrom),
+                            AirBroadcast.getValue().get(airFrom), AirBroadcast.getValue().get()
                     ))
                 }
         )
