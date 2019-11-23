@@ -17,7 +17,7 @@ public class FlightsReduce {
                     String airTo =  s[14];
                     Double stat = Double.parseDouble(s[19]);
                     String del = s[18];
-                    return 
+                    return new Tuple2<>()
                 }
         )
 
