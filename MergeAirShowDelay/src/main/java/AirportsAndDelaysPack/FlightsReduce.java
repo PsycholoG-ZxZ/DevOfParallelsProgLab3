@@ -12,8 +12,8 @@ public class FlightsReduce {
                                                             Broadcast<Map<String,String>> AirBroadcast
                                                             ){
         return TupleWithKey.mapToPair(
-                (String s) -> {
-                    String[] Inf = s;
+                (String[] s) -> {
+                    
                 }
         )
 
