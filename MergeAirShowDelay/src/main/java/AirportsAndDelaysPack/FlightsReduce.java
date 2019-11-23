@@ -19,7 +19,7 @@ public class FlightsReduce {
                     String del = s[18];
                     return new Tuple2<>(new Tuple2<>(
                             AirBroadcast.getValue().get(airFrom), AirBroadcast.getValue().get(airTo)),
-                            new FlightData(new Tuple2<String,String> (del.toString(), stat.toString()))
+                            new FlightData(new Tuple2<String,String> (del.toString(), stat.toString()));
                 }
         )
 
