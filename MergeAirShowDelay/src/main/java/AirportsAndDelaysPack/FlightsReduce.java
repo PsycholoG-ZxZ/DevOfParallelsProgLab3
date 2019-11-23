@@ -12,7 +12,9 @@ public class FlightsReduce {
                                                             Broadcast<Map<String,String>> AirBroadcast,
                                                             JavaRDD<String> ExtraFlInfo){
         return ExtraFlInfo.mapToPair(
-                (String S)
+                (String s) -> {
+                    
+                }
         )
 
     }
