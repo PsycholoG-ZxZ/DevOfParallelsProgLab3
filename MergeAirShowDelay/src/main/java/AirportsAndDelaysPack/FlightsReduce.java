@@ -14,7 +14,8 @@ public class FlightsReduce {
         return TupleWithKey.mapToPair(
                 (String[] s) -> {
                     String airFrom = s[11];
-                    String airTo = 
+                    String airTo =  s[14];
+                    
                 }
         )
 
