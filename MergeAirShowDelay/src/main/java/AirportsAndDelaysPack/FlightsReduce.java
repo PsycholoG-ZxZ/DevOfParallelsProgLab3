@@ -26,8 +26,8 @@ public class FlightsReduce {
                         Math.max(frst.delay, sec.delay), frst.countAll + sec.countAll, frst.kolFlightWDelay + sec.kolFlightWDelay
                 )
         ).mapToPair((
-                Tuple2<Tuple2<String,String>,String> tup)-> new Tuple2<>(
-                        tup._1, new Tuple2<>(tup._2)
+                Tuple2<Tuple2<String,String>,FlightData> tup)-> new Tuple2<>(
+                        tup._1, new Tuple2<>(tup._2.getDelay())
                 )
         )
 
