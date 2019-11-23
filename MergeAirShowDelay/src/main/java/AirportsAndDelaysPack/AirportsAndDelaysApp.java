@@ -29,7 +29,7 @@ public class AirportsAndDelaysApp {
         //избавимся от лишних и заколектим в мап ключ-дескр
         JavaRDD<String> ExtraFlInfo;
         final Broadcast<Map<String,String>> AirBroadcast = sc.broadcast(airportMap);
-        JavaPairRDD<Tuple2, Tuple2> Inf = FlightsReduce.FlightsCount(TupleWithKey, AirBroadcast, ExtraFlInfo);
+        JavaPairRDD<Tuple2, Tuple2> Inf = FlightsReduce.FlightsCount(RddDelays, AirBroadcast);
 
     }
 
