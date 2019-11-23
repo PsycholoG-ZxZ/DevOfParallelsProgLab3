@@ -12,7 +12,7 @@ public class FlightData implements Serializable {
         public int countAll;
         public int canceledKol;
         public int kolFlightWDelay;
-        public int per;
+        public double per;
     FlightData(Tuple2<String,String> delInfo) {
         countAll = 1;
         if (delInfo._2.equals("0")) {
@@ -34,7 +34,7 @@ public class FlightData implements Serializable {
         countAll = count;
         //canceledKol = countAll;
         if(kolFlightWDelay != 0){
-            per = (float)kolFlightWDelay * 100 / (float) countAll;
+            per = (float) kolFlightWDelay * 100 / (float) countAll;
         }else per = 0;
     }
 }
