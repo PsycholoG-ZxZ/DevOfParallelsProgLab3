@@ -13,7 +13,7 @@ public class FlightsReduce {
                                                             ){
         return TupleWithKey.mapToPair(
                 (String s) -> {
-                    String[] Inf = TupleWithKey;
+                    String[] Inf = s;
                 }
         )
 
