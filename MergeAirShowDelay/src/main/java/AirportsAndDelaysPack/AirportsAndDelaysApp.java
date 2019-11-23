@@ -30,7 +30,7 @@ public class AirportsAndDelaysApp {
         JavaRDD<String> ExtraFlInfo;
         final Broadcast<Map<String,String>> AirBroadcast = sc.broadcast(airportMap);
         JavaPairRDD<Tuple2, Tuple2> Inf = FlightsReduce.FlightsCount(RddDelays, AirBroadcast);
-        Inf.
+        Inf.saveas
     }
 
 }
