@@ -1,5 +1,5 @@
 package AirportsAndDelaysPack;
 
 public class FlightsReduce {
-    public static 
+    public static FlightsCount
 }

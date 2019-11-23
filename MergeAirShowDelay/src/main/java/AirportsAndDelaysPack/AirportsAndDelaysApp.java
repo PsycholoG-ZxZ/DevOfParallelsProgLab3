@@ -28,7 +28,7 @@ public class AirportsAndDelaysApp {
         Map<String,String> airportMap = IdAndDescrPair.collectAsMap();
         //избавимся от лишних и заколектим в мап ключ-дескр
         final Broadcast<Map<String,String>> AirBroadcast = sc.broadcast(airportMap);
-        JavaPairRDD<Tuple2, Tuple2> Inf = FlightsReduce(TupleWithKey, AirBroadcast);
+        JavaPairRDD<Tuple2, Tuple2> Inf = FlightsReduce.FlightsCount(TupleWithKey, AirBroadcast);
 
     }
 
