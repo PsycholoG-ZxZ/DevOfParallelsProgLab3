@@ -27,7 +27,7 @@ public class FlightsReduce {
                 )
         ).mapToPair((
                 Tuple2<Tuple2<String,String>,FlightData> tup)-> new Tuple2<>(
-                        tup._1, new Tuple2<>(tup._2.getDelay())
+                        tup._1, new Tuple2<>(tup._2.getDelay(), tup._2.getPer())
                 )
         )
 
