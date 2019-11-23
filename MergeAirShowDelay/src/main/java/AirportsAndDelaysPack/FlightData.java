@@ -38,8 +38,12 @@ public class FlightData implements Serializable {
         }else per = 0;
     }
 
-    public double getPer{
+    public double getPer(){
         return per;
     }
+    public double getDelay(){
+        return delay;
+    }
+
 
 }
