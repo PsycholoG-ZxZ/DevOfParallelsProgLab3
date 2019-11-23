@@ -15,7 +15,7 @@ public class FlightsReduce {
                 (String[] s) -> {
                     String airFrom = s[11];
                     String airTo =  s[14];
-                    Double stat = s[]
+                    Double stat = Double.parseDouble()
                 }
         )
 
