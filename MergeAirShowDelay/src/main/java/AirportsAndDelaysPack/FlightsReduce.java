@@ -11,7 +11,7 @@ public class FlightsReduce {
     public static JavaPairRDD<Tuple2, Tuple2> FlightsCount (JavaPairRDD<Tuple2<String,String>, FlightData> TupleWithKey,
                                                             Broadcast<Map<String,String>> AirBroadcast,
                                                             JavaRDD<String> ExtraFlInfo){
-        return ExtraFlInfo
+        return ExtraFlInfo.mapToPair()
 
     }
 }
