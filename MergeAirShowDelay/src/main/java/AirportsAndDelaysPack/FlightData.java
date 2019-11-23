@@ -29,8 +29,8 @@ public class FlightData implements Serializable {
     }
     FlightData(double del, int count, int countAll){
         delay = del;
-        kolFlightWDelay = count;
-        countAll = 1;
+        //kolFlightWDelay = count;
+        countAll = count;
         canceledKol =
     }
 }
