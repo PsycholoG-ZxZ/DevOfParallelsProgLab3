@@ -21,7 +21,9 @@ public class FlightsReduce {
                             AirBroadcast.getValue().get(airFrom), AirBroadcast.getValue().get(airTo)),
                             new FlightData(new Tuple2<String,String> (del.toString(), stat.toString()));
                 }
-        ).reduceByKey()
+        ).reduceByKey(
+                
+        )
 
     }
 }
